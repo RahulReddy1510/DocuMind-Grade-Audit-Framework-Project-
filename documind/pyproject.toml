@@ -1,0 +1,17 @@
+[project]
+name = "documind"
+version = "0.1.0"
+description = "DocuMind Production-Grade Audit Framework"
+authors = [
+    {name = "Rahul Reddy", email = "rahul@example.com"},
+]
+dependencies = [
+    "langgraph>=0.0.10",
+    "langchain>=0.1.0",
+    "pinecone-client>=3.0.0",
+    "openai>=1.0.0",
+    "pymupdf4llm>=0.0.1",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+]
+requires-python = ">=3.10"
